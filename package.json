@@ -1,0 +1,14 @@
+{
+  "name": "otermometrodepg",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Termômetro de PG",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": ["vercel", "static"],
+  "author": "Juan Antonio Peruzzo",
+  "license": "MIT"
+}
