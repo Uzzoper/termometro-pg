@@ -15,7 +15,7 @@ body {
     text-align: center;
     min-height: 100vh;
     padding: 60px 20px 0;
-    background-image: url(images/tacavilavelha.jpg);
+    background-image: url(/images/tacavilavelha.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
