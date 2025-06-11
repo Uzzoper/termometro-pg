@@ -6,7 +6,6 @@ export default async function handler(req, res) {
   try {
     const response = await fetch(url);
     if (!response.ok) {
-      // Retorna o status e mensagem de erro para o front
       const errorMessage = await response.text();
       return res.status(response.status).json({ error: errorMessage });
     }
