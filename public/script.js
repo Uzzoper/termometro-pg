@@ -1,6 +1,4 @@
-const apiKey = "***REMOVED***"
-const cityId = "3453186"
-const url = `https://api.openweathermap.org/data/2.5/weather?id=3453186&appid=***REMOVED***&units=metric&lang=pt_br`
+const url = '/api/weather'
 
 fetch(url)
     .then(res => res.json())
