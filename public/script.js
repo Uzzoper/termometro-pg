@@ -1,5 +1,7 @@
 const url = '/api/weather'
 
+document.getElementById('ano').textContent = new Date().getFullYear()
+
 fetch(url)
     .then(res => res.json())
     .then(dados => {
